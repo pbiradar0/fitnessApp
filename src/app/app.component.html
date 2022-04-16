@@ -3,9 +3,7 @@
     <app-sidenav-list (closeSidenav)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
       <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
-    </mat-toolbar>
     <main>
       <router-outlet></router-outlet>
     </main>
